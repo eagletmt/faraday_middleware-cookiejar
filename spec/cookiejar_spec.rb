@@ -24,7 +24,7 @@ describe FaradayMiddleware::CookieJar do
     end
 
     @conn = Faraday::Connection.new do |builder|
-      builder.use FaradayMiddleware::CookieJar, *middleware_args
+      builder.use :cookie_jar, *middleware_args
       builder.adapter :test, @stubs
     end
   end

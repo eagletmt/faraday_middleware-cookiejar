@@ -22,4 +22,5 @@ module FaradayMiddleware
       end
     end
   end
+  Faraday.register_middleware :cookie_jar => CookieJar
 end
