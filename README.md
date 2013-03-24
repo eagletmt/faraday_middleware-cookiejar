@@ -1,4 +1,5 @@
 # FaradayMiddleware::Cookiejar
+[![Build Status](https://travis-ci.org/eagletmt/faraday_middleware-cookiejar.png?branch=master)](https://travis-ci.org/eagletmt/faraday_middleware-cookiejar)
 
 Faraday middleware for managing cookies
 
